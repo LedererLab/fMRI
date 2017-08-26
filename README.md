@@ -21,9 +21,14 @@ connectivity network can be found in `graph_estimation_test.R`.
 
 ## Authors
 
+
+Bu and Lederer, 
+
 * **Yunqi Bu & Johannes Lederer** - *Initial authors of R language implementation.*
 * **Benjamin J Phillips** - *Revision of R language implementation.*
 
-## References
+## Reference
 
 [Integrating Additional Knowledge Into Estimation of Graphical Models](https://arxiv.org/abs/1704.02739)
+
+Cite as "Bu and Lederer, Integrating Additional Knowledge Into Estimation of Graphical Models, arXiv:1704.02739, 2017"
