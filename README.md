@@ -14,7 +14,7 @@ In order to use this function one needs a design matrix and a matrix containing
  pairwise distances between regions.
 
 A sample design matrix (preprocessed, detrended fMRI data from one subject) and the corresponding distance matrix can be found in this
-repository under `/TestData/fMRI1.csv` and `/TestData/Weight_Matrix.csv` respectively.
+repository under `/TestData/Test_fMRI.csv` and `/TestData/Distance_Matrix.csv` respectively.
 
 A sample program that uses each of these matrices and produces an image of the resulting
 connectivity network can be found in `graph_estimation_test.R`.
