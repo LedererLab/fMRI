@@ -19,6 +19,11 @@ repository under `/TestData/Test_fMRI.csv` and `/TestData/Distance_Matrix.csv` r
 A sample program that uses each of these matrices and produces an image of the resulting
 connectivity network can be found in `graph_estimation_test.R`.
 
+Detailed descriptions on the fMRI processing procedure can be found in this repository under `fMRI_Processing_Procedure`. 
+
+Preprocessed data for all 37 patients can be found in this repository under `/Data/preprocessed_data`. The brain region names, the lobe that region belongs to, and 42 region of interest indicator is given in `/Data/Brain_regions.csv`.
+
+
 ## Authors
 
 
