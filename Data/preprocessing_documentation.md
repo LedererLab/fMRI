@@ -116,7 +116,7 @@ The output of Step 6 is collected in the folder 'Data/PreproceedData`.
 
 ## Acknowledgements
 
-The preprocessing and averaging procedure (Steps 1 thorough 5) was devised and implemented by
+The preprocessing and averaging procedure (Steps 1 through 5) was devised and implemented by
 
 * **[Zhang Min](mailto:chinazm@gmail.com)** Scientist at Mayo Clinic
 
