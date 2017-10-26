@@ -7,21 +7,21 @@ Yunqi Bu and Johannes Lederer.
 
 ## Usage
 
-The file `graph_estimation.R` contains a function `GraphEstimation` to estimate
+The file `Method/graph_estimation.R` contains a function `GraphEstimation` to estimate
  a connectivity network using the `SI` method described in the original paper.
 
 In order to use this function one needs a design matrix and a matrix containing
  pairwise distances between regions.
 
 A sample design matrix (preprocessed, detrended fMRI data from one subject) and the corresponding distance matrix can be found in this
-repository under `/TestData/Test_fMRI.csv` and `/TestData/Distance_Matrix.csv` respectively.
+repository under `Method/TestData/test_fMRI.csv` and `Method/TestData/distance_matrix.csv` respectively.
 
 A sample program that uses each of these matrices and produces an image of the resulting
-connectivity network can be found in `graph_estimation_test.R`.
+connectivity network can be found in `Method/graph_estimation_test.R`.
 
-Detailed descriptions on the fMRI processing procedure can be found in this repository under `fMRI_Processing_Procedure`. 
+Detailed descriptions on the fMRI processing procedure can be found in this repository under `Data/fMRI_preprocessing_procedure.md`. 
 
-Preprocessed data for all 37 patients can be found in this repository under `/Data/preprocessed_data`. The brain region names, the lobe that region belongs to, and 42 region of interest indicator is given in `/Data/Brain_regions.csv`.
+Preprocessed data for all 37 patients can be found in this repository under `Data/PreprocessedData`. The brain region names, the lobe that each region belongs to, and the 42 region of interest indicator is given in `Data/brain_regions.csv`.
 
 
 ## Authors
