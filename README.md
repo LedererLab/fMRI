@@ -1,39 +1,43 @@
-# BrainSoft Connect
+# Estimating Brain Connectivity Networks With Additional Knowledge
 
-This repository provides a possible implementation of the algorithms
+This repository provides the data and an implementation of the algorithms
  described in the paper
 *Integrating Additional Knowledge Into the Estimation of Graphical Models for Brain Connectivity Networks* by
 Yunqi Bu and Johannes Lederer.
 
 ## Usage
 
-The file `Method/graph_estimation.R` contains a function `GraphEstimation` to estimate
- a connectivity network using the `SI` method described in the original paper.
+The file `Implementation/graph_estimation.R` contains a function `GraphEstimation` to estimate
+ a connectivity network using the `SI` method described in the  paper.
 
-In order to use this function one needs a design matrix and a matrix containing
- pairwise distances between regions.
+In order to use this function, one needs a matrix of fMRI data and a matrix containing
+ pairwise distances between the brain regions.
 
-A sample design matrix (preprocessed, detrended fMRI data from one subject) and the corresponding distance matrix can be found in this
-repository under `Method/TestData/test_fMRI.csv` and `Method/TestData/distance_matrix.csv` respectively.
+An exemplary matrix of fMRI data (preprocessed data for one subject) and the  distance matrix for the regions can be found in this
+repository under `Implementation/ExampleData/example_fMRI.csv` and `Implementation/ExampleData/distance_matrix.csv`, respectively.
 
-A sample program that uses each of these matrices and produces an image of the resulting
-connectivity network can be found in `Method/graph_estimation_test.R`.
+A program that uses these matrices and produces an image of the resulting
+connectivity network can be found in `Implementation/example.R`.
 
-Detailed descriptions on the fMRI processing procedure can be found in this repository under `Data/fMRI_preprocessing_procedure.md`. 
+Detailed descriptions on the fMRI preprocessing procedure can be found under `Data/preprocessing_documentation.md`. 
 
-Preprocessed data for all 37 patients can be found in this repository under `Data/PreprocessedData`. The brain region names, the lobe that each region belongs to, and the 42 region of interest indicator is given in `Data/brain_regions.csv`.
-
-
-## Authors
+Preprocessed data for all 37 patients in the study can be found under `Data/PreprocessedData`. The brain region names, the lobe that each region belongs to, and the 42 region of interest indicator is given in `Data/brain_regions.csv`.
 
 
-Bu and Lederer, 
+## Repository Authors
 
-* **Yunqi Bu & Johannes Lederer** - *Initial authors of R language implementation.*
-* **Benjamin J Phillips** - *Revision of R language implementation.*
+* **[Yunqi Bu](yunqibu@uw.edu)** -- Graduate student in Biostatistics, University of Washington -- *methodology and `R` implementation*
+* **[Johannes Lederer](ledererj@uw.edu)** -- Assistant Professor in Statistics, University of Washington -- *methodology and `R` implementation*
+* **[Benjamin J. Phillips](bejphil@uw.edu)** -- Undergraduate student in Mathematics, University of Washington -- *revision of `R` implementation.*
+
+## Acknoledgements
+
+The raw fMRI data was collected and provided by Dr. Dantao Peng, Dr. Yanlei Mu, and Dr. Xiao Zhang. The data preprocessing was conducted by Dr. Min Zhang.
 
 ## Reference
 
 [Integrating Additional Knowledge Into the Estimation of Graphical Models for Brain Connectivity Networks](https://arxiv.org/abs/1704.02739)
 
-Cite as "Bu and Lederer, Integrating Additional Knowledge Into the Estimation of Graphical Models for Brain Connectivity Networks, arXiv:1704.02739, 2017"
+Cite as "Bu and Lederer, *Integrating Additional Knowledge Into the Estimation of Graphical Models for Brain Connectivity Networks,* arXiv:1704.02739, 2017"
+
+
