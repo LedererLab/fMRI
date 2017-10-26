@@ -1,7 +1,7 @@
 
-# Preprocessing Steps Applied to Raw fMRI
+# Preprocessing of fMRI
 
-Preprocessing is implemented based on Statistical Parametric Mapping SPM8 on Matlab 2014b.
+Preprocessing is implemented based on Statistical Parametric Mapping SPM8 in `Matlab` version 2014b; detrending is based on the autoregressive integrated moving average model implemented in the forecast package version 8.0 in `R` version 3.3.2.
 
 ### Step 1. Slice Timing Correction
 
@@ -108,9 +108,15 @@ Average the intensities over regions according to the Automated Anatomical Label
     end
 ```
 
+### Step 6. Removal of Temporal Patterns
+
+Remove temporal patterns in the data by applying the autoregressive integrated moving average model (ARIMA).
+
+The output of Step 6 is collected in the folder 'Data/PreproceedData`.
+
 ## Acknowledgements
 
-The above procedure was devised and implemented by
+The preprocessing and averaging procedure (Steps 1 thorough 5) was devised and implemented by
 
 * **[Zhang Min](mailto:chinazm@gmail.com)** Scientist at Mayo Clinic
 
