@@ -23,6 +23,7 @@ Detailed descriptions on the fMRI preprocessing procedure can be found under `Da
 
 Preprocessed data for all 37 patients in the study can be found under `Data/PreprocessedData.` The brain region names, the lobe that each region belongs to, and the 42 regions of interest indicator is given in `Data/brain_regions.csv.`
 
+The coding invokes [Google's style guide](https://google.github.io/styleguide/Rguide.xml) for `R.`
 
 ## Repository Authors
 
