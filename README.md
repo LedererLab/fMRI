@@ -28,7 +28,7 @@ The coding invokes [Google's style guide](https://google.github.io/styleguide/Rg
 ## Repository Authors
 
 * **[Yunqi Bu](yunqibu@uw.edu)** &mdash; Graduate student in Biostatistics, University of Washington &mdash; *methodology and `R` implementation*
-* **[Johannes Lederer](ledererj@uw.edu)** &mdash; Assistant Professor in Statistics, University of Washington &mdash; *methodology and `R` implementation*
+* **[Johannes Lederer](johannes.lederer@rub.de)** &mdash; Professor of Mathematics, Ruhr-University Bochum &mdash; *methodology and `R` implementation*
 * **[Benjamin J. Phillips](bejphil@uw.edu)** &mdash; Undergraduate student in Mathematics, University of Washington &mdash; *revision of `R` implementation.*
 
 ## Acknowledgements
