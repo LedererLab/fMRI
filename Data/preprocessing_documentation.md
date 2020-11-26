@@ -9,7 +9,7 @@ Check whether the slice timing of an image is correct. If yes, go to Step 2. If 
 
 ### Step 2. Realignment (Estimated)
 
-Perform  realignment (estimated): Batch -&gt; SPM -&gt; Spatial -&gt; Realign: Estimated
+Perform realignment (estimated): Batch -&gt; SPM -&gt; Spatial -&gt; Realign: Estimated
 
 Use the following settings: 
 
