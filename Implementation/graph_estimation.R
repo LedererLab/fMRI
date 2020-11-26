@@ -36,7 +36,7 @@ BetaCol <- function( X, D, i ) {
   #
   # Args:
   #   X: An n x p design matrix.
-  #   D: A p x p matrix containing pairwise distances between regions
+  #   D: A p x p matrix containing pairwise distances between regions.
   #   i: Index of the column being updated.
   #
   # Returns:
