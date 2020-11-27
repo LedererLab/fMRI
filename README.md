@@ -2,7 +2,7 @@
 
 This repository provides the data and an implementation of the algorithms
  described in the paper
-*Integrating Additional Knowledge Into the Estimation of Graphical Models for Brain Connectivity Networks* by
+*Integrating Additional Knowledge Into the Estimation of Graphical Models* by
 Yunqi Bu and Johannes Lederer.
 
 ## Usage
